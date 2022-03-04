@@ -1,11 +1,11 @@
 class User
   attr_accessor :username, :password
   # pre define a user within the all variable
-  @@all = [
-    {username: "patrick1", password: "password1"}
-  ]
+  @@all = []
 
-  def initialize
+  def initialize(username, password)
+    @username = username
+    @password = password
     @@all << self
   end
   # a method for accessing all user instances

@@ -8,3 +8,4 @@ end
 require_relative "Random_Facts_Generator/cli.rb"
 require_relative "authenticator.rb"
 require_relative "user.rb"
+require_relative "scraper.rb"
